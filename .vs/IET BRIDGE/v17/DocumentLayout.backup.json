@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -47,8 +51,7 @@
               "RelativeToolTip": "IET BRIDGE\\IET BRIDGE\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:28:05.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T12:28:05.881Z"
             },
             {
               "$type": "Document",
@@ -60,8 +63,7 @@
               "RelativeToolTip": "IET BRIDGE\\Models\\IetBridgeContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:27:47.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T12:27:47.127Z"
             }
           ]
         }

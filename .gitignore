@@ -1,0 +1,19 @@
+# Ignore Visual Studio temporary files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
+
+# Ignore database file formats
+*.mdf
+*.ldf
+*.dbmdl
+*.jfm
+*.pdb
+*.cache
+
+# Ignore system files
+Thumbs.db
+Desktop.ini

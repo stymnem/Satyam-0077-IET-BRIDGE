@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IET_BRIDGE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d78142dae6a09a2dc907db9bd24c434b5c453a79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6d14064e1a9c7c8f4267c4927ce6af01079d9bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("IET_BRIDGE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IET_BRIDGE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
