@@ -1,4 +1,4 @@
-using IET_BRIDGE.Models;
+﻿using IET_BRIDGE.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
