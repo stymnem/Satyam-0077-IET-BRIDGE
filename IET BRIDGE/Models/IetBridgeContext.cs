@@ -9,12 +9,10 @@ public partial class IetBridgeContext : DbContext
     public IetBridgeContext()
     {
     }
-
     public IetBridgeContext(DbContextOptions<IetBridgeContext> options)
         : base(options)
     {
     }
-
     public virtual DbSet<Alumnus> Alumni { get; set; }
 
     public virtual DbSet<Announcement> Announcements { get; set; }
