@@ -1,0 +1,6 @@
+@IET_BRIDGE_HostAddress = http://localhost:5262
+
+GET {{IET_BRIDGE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
