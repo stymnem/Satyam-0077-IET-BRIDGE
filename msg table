@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Messages] (
+    [Id]         INT            IDENTITY (1, 1) NOT NULL,
+    [SenderId]   INT            NULL,
+    [ReceiverId] INT            NULL,
+    [Content]    NVARCHAR (MAX) NOT NULL,
+    [SentAt]     DATETIME       DEFAULT (getdate()) NULL,
+    [IsRead]     BIT            DEFAULT ((0)) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Messages_Sender] FOREIGN KEY ([SenderId]) REFERENCES [dbo].[Users] ([Id]) ON DELETE SET NULL,
+    CONSTRAINT [FK_Messages_Receiver] FOREIGN KEY ([ReceiverId]) REFERENCES [dbo].[Users] ([Id])
+);
