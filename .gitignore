@@ -1,19 +1,10 @@
-# Ignore Visual Studio temporary files
-.vs/
+node_modules/
+dist/
+build/
+.env
+.vscode/
+# .NET
 bin/
 obj/
 *.user
 *.suo
-*.log
-
-# Ignore database file formats
-*.mdf
-*.ldf
-*.dbmdl
-*.jfm
-*.pdb
-*.cache
-
-# Ignore system files
-Thumbs.db
-Desktop.ini
